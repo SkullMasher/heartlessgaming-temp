@@ -1,0 +1,51 @@
+
+@import 'knacss/knacss';
+
+body {
+	background-color: black;
+}
+
+.framing-effect {
+  display: flex;
+  min-height: 97vh;
+  flex-direction: column;
+  margin: 15px;
+	background-color: #111;
+  color: #fff;
+}
+
+.primary-nav {
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+.primary-nav__link {
+	display: block;
+	margin: 5px 10px;
+}
+
+.site-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.app--title {
+  // I think it's good practice for SEO not sure tho.
+  display: none;
+}
+
+.app--logo {
+  width: 800px;
+}
+
+.app--short-description {
+  font-size: 1.4em;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+}
