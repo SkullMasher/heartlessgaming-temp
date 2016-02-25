@@ -2060,15 +2060,18 @@ body {
 
 .framing-effect {
   display: flex;
-  min-height: 97vh;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
   flex-direction: column;
-  position: relative;
-  margin: 15px;
   background-color: #111;
   color: #fff;
 }
 
 .primary-nav {
+  display: flex;
   position: absolute;
   right: 0;
   list-style-type: none;
