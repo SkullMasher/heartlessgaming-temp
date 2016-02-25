@@ -48,6 +48,11 @@ body {
 }
 
 .more-info {
+  margin: 20px 0;
   display: flex;
   justify-content: space-around;
+}
+
+.more-info__item {
+  font-size: 1.2em;
 }
