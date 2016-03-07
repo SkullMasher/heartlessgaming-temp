@@ -269,7 +269,8 @@
   }
 
   .#{$kna-namespace}flex-container {
-    flex-direction: column;
+    // flex-direction: column; NOPE not needed in this project
+    flex-direction: row;
   }
 
   .#{$kna-namespace}w300p,

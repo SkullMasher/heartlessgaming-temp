@@ -1713,7 +1713,7 @@ s,m,l,n = small, medium, large, none
     border: 0;
   }
   .flex-container {
-    flex-direction: column;
+    flex-direction: row;
   }
   .w300p,
   .w400p,
@@ -2060,9 +2060,12 @@ body {
 
 .framing-effect {
   display: flex;
-  min-height: 97vh;
   flex-direction: column;
-  position: relative;
+  position: fixed;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
   margin: 15px;
   background-color: #111;
   color: #fff;
@@ -2087,16 +2090,20 @@ body {
   align-items: center;
 }
 
+.app {
+  width: 290px;
+}
+
 .app--title {
   display: none;
 }
 
 .app--logo {
-  width: 800px;
+  min-width: 250px;
 }
 
 .app--short-description {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 .more-info {
@@ -2106,7 +2113,11 @@ body {
 }
 
 .more-info__item {
-  font-size: 1.2em;
+  font-size: 1em;
+}
+
+.more-info__item > p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
